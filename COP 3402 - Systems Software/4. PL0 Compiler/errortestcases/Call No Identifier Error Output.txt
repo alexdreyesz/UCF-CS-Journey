@@ -1,0 +1,7 @@
+var a, b;
+begin
+         call;
+end.
+
+
+Error Number 14, Call Must Be Followed By An Identifier. Current Token 18

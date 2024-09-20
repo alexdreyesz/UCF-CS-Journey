@@ -1,0 +1,12 @@
+var a, b;
+procedure;
+    var a, b;
+    begin
+        a := 1;
+        call f
+    end;
+begin
+    a := 2;
+end.    
+
+Error Number 4, const must be followed by identifier. Current Token 18

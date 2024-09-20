@@ -1,0 +1,8 @@
+var a, b;
+procedure a;
+  var a, b;
+  begin
+    call z;
+end.  
+
+Error Number 15, Call Of A Constant Or Variable Is Meaningless. Current Token z

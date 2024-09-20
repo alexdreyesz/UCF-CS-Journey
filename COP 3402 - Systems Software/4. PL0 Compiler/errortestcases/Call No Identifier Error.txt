@@ -1,0 +1,5 @@
+var a, b;
+begin
+         call;
+end.
+ 
