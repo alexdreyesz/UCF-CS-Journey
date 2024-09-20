@@ -1,0 +1,139 @@
+//Alex Reyes
+//Jesus Molina
+
+How To Compile and Run the lex.c:
+1. Head to the directory in terminal where the lex source code is stored
+2. run command gcc lex.c -o <insert name for file>
+3. run command ./<choosen file name>.out(or ./<choosen file name>.exe if your system created .exe file) <name of input file> or Run BASH script
+4. Output will appear on terminal screen
+
+Example:
+C:\Users\student>cd HW2
+C:\Users\student\HW2>gcc lex.c -o lex
+C:\Users\student\HW2>lex input.txt
+
+OR
+
+Example:
+C:\Users\student>cd HW2
+C:\Users\student\HW2>gcc lex.c -o lex
+C:\Users\student\HW2>./lex.out input.txt
+
+Output If Done Correctly:
+Source Program:
+const m = 7, n = 85;
+var i,x,y,z,q,r;
+procedure mult;
+  var a, b;
+ begin
+   a := x; b := y; z := 0;
+   while b > 0 do
+   begin
+    if x =1 then z := z+a fi;
+    a := 2*a;
+    b := b/2;
+   end
+  end;
+
+begin
+ x := m;
+ y := n;
+ call mult;
+end.
+
+Lexeme Table:
+
+lexeme token type
+const         28
+m             2
+=             9
+7             3
+,             17
+n             2
+=             9
+85            3
+;             18
+var           29
+i             2
+,             17
+x             2
+,             17
+y             2
+,             17
+z             2
+,             17
+q             2
+,             17
+r             2
+;             18
+procedure     30
+mult          2
+;             18
+var           29
+a             2
+,             17
+b             2
+;             18
+begin         21
+a             2
+:=            20
+x             2
+;             18
+b             2
+:=            20
+y             2
+;             18
+z             2
+:=            20
+0             3
+;             18
+while         25
+b             2
+>             13
+0             3
+do            26
+begin         21
+if            23
+x             2
+=             9
+1             3
+then          24
+z             2
+:=            20
+z             2
++             4
+a             2
+fi            8
+;             18
+a             2
+:=            20
+2             3
+*             6
+a             2
+;             18
+b             2
+:=            20
+b             2
+/             7
+2             3
+;             18
+end           22
+end           22
+;             18
+begin         21
+x             2
+:=            20
+m             2
+;             18
+y             2
+:=            20
+n             2
+;             18
+call          27
+mult          2
+;             18
+end           22
+.             19
+
+Token List:
+28 2 m 9 3 7 17 2 n 9 3 85 18 29 2 i 17 2 x 17 2 y 17 2 z 17 2 q 17 2 r 18 30 2 mult 18 29 2 a 17 2 b 18 21 2 a 20 2 x 18 2 b 20 2 y 18 2 z 20 3 0 18 25 2 b 13 3 0 26 21 23 2 x 9 3 1 24 2 z 20 2 z 4 2 a 8 18 2 a 20 3 2 6 2 a 18 2 b 20 2 b 7 3 2 18 22 22 18 21 2 x 20 2 m 18 2 y 20 2 n 18 27 2 mult 18 22 19
