@@ -1,0 +1,5 @@
+var x, y;
+const x = 10;
+begin
+  y := x * 2;
+end.

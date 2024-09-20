@@ -1,0 +1,7 @@
+var x, y;
+begin
+  x := 10;
+  y := 20;
+  if x > y
+    y := x;
+end.

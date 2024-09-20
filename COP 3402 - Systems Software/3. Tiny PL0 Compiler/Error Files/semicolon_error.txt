@@ -1,0 +1,6 @@
+const a = 5
+var b, c
+begin
+  b := a * 2;
+  c := b + a;
+end.

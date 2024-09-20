@@ -1,0 +1,16 @@
+LINE    OP    L   M
+0       JMP   0   3
+1       INC   0   5
+2       LOD   0   4
+3       LIT   0   2
+4       MUL   0   3
+5       STO   0   3
+6       SYS   0   3
+
+
+Symbol Table:
+
+Kind | Name       | Value | Level | Address | Mark
+---------------------------------------------------
+   2 |          x |     0 |     0 |       3 |    1
+   2 |          y |     0 |     0 |       4 |    1

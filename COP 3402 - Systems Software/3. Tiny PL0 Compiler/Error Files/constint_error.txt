@@ -1,0 +1,6 @@
+const a = 'Hello';
+var b, c;
+begin
+  b := 10;
+  c := b * 2;
+end.

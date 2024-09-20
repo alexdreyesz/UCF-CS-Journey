@@ -1,0 +1,6 @@
+const a = 5;st
+var b;
+begin
+  a := 10;
+  b := a * 2;
+end.
