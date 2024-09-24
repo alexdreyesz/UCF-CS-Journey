@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConnectFour" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorButtonNormal">@null</item> <!-- Remove any default button color -->
+        <item name="colorPrimary">@null</item> <!-- Remove primary color if it affects buttons -->
+        <item name="colorPrimaryVariant">@null</item>
+    </style>
+
+    <style name="Theme.ConnectFour" parent="Base.Theme.ConnectFour" />
+</resources>
