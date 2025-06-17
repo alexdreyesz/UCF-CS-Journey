@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Connect Four</title>
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet"
+        />
+        
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="connectFour.css" />
+    </head>
+
+    <!-- Body -->
+    <body>
+
+        <!-- Main Board -->
+        <div class="wrapper">   
+            <!-- Players Turn Indicator -->
+            <div id="playerTurn">Temporary Text</div>
+
+            <!-- Playing Game Board -->
+            <div class="container"></div>
+
+            <!-- Player Icon Indicator -->
+            <div id="information">
+                <!-- Player 1 -->
+                <div class="player-wrappers">
+                    Player 1
+                    <div class="player1"></div>
+                </div>
+                <!-- Player 2 -->
+                <div class="player-wrappers">
+                    Player 2
+                    <div class="player2"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Game Message -->
+        <div>
+            <div id="message"></div>
+        </div>
+        
+        <!-- Script -->
+        <script src="connectFour.js"></script>
+    </body>
+</html>

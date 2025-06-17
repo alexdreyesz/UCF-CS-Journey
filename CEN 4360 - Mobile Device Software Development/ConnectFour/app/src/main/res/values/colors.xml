@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#129030</color>
+    <color name="orange">#fc3</color>
+    <color name="black">#000</color>
+    <color name="blue">#446677</color>
+    <color name="red">#de3724</color>
+    <color name="brightBlue">#d44d13</color>
+
+    <color name="ballBlue">#4477dd</color>
+    <color name="ballRed">#ff4466</color>
+    <color name="ballWhite">#fff</color>
+
+    <color name="background">#fce803</color>
+
+    <color name="h1">#000</color>
+    <color name="h2">#000</color>
+    <color name="h3">#000</color>
+
+    <color name="score">#000</color>
+    <color name="vBreakers">#000</color>
+    <color name="hBreakers">#000</color>
+
+</resources>
